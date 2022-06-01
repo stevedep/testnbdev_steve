@@ -15,7 +15,7 @@ conda_release:
 
 gitm: 
 	git add --all
-	git commit -m "folder test2"
+	git commit -m "$(commitmessage)"
 	git push -u origin master
 
 pypi: dist

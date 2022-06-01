@@ -1,27 +1,12 @@
-# Project name here
-> Summary description here.
+# ClickUp Shift and Score
+> This module allows you to shift tasks and to score them. Scoring does require custom fields.
 
-
-This file will become your README and also the index of your documentation.
 
 ## Install
 
 `pip install CUFT`
 
 ## How to use
-
-Fill me in please! Don't forget code examples:
-
-```python
-1+1
-```
-
-
-
-
-    2
-
-
 
 ```python
 from CUFT import CUFile as CUS
@@ -55,15 +40,14 @@ dir(CUS)
 
 
 
-Finding your token: 
-
-Navigate to your personal Settings 
-
-Click Apps  in the left sidebar
-
-Click Generate  to create your API token
-
-Click Copy  to copy the key to your clipboard 
+## Getting your token
+> Finding your token:> > Navigate to your personal Settings 
+>
+> Click Apps  in the left sidebar
+>
+> Click Generate  to create your API token
+>
+> Click Copy  to copy the key to your clipboard 
 
 ```python
 DemoCU = CUS.CU('pk_42327425_NPYWMF9GG6AQY7OZF36QRXL8XXXS65J7')
